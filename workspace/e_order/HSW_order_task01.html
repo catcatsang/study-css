@@ -1,0 +1,38 @@
+<!-- 문제 1: 원, 사각형, 삼각형을 정렬하기 (CSS Flexbox)
+문제 설명: 주어진 도형들(원, 사각형, 삼각형)을 화면에 균등하게 배치하되, CSS Flexbox를 이용하여 도형들을 가로로 정렬하는 문제입니다. 각 도형은 서로 다른 크기와 모양을 가지고 있으며, 이를 Flexbox로 정렬해보세요. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSW_order_task01</title>
+    <Style>
+        #container {
+            display: flex;
+           
+            border: solid purple;
+
+        }
+        .circle {
+         border: solid red;
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+        }
+        .square {
+            width: 20px;
+            height: 20px;
+            border: solid red;
+
+        }
+    </Style>
+</head>
+<body>
+    <div id="container">
+        <div class="circle"></div>
+        <div class="square"></div>
+        <div class="triangle"></div>
+    </div> 
+    
+</body>
+</html>

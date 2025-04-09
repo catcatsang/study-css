@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/clonecoding02.css" />
+  </head>
+
+  <body class="__className_96aa32 antialiased">
+    <div
+      class="box-border py-6 desktop:min-h-screen desktop:bg-w-gray-10 desktop:py-[120px]"
+    >
+      <div
+        class="mx-auto grid w-full max-w-container auto-cols-1fr gap-x-5 px-5 desktop:gap-x-6 desktop:px-9 grid-areas-signUp-mobile tablet:grid-areas-signUp-tablet desktop:grid-areas-signUp-desktop"
+      >
+        <div class="box-border hidden grid-in-welcome desktop:block">
+          <div
+            class="box-border flex flex-col items-start justify-start gap-10 py-8"
+            data-testid="feature-welcome"
+          >
+            <span
+              class="tracking-default typo-title2 whitespace-pre text-w-gray-900"
+              >위시켓의 다양한 서비스를 하나의 계정으로!</span
+            ><img
+              alt="welcome"
+              role="presentation"
+              fetchpriority="high"
+              width="461"
+              height="240"
+              decoding="async"
+              data-nimg="1"
+              class="flex-none"
+              src="https://media.wishket.com/images/auth/Illust_Login.png"
+              style="color: transparent"
+            />
+          </div>
+        </div>
+        <div class="box-border grid-in-form">
+          <div
+            class="box-border h-full w-full bg-w-white desktop:box-border desktop:flex desktop:flex-col desktop:rounded-2xl desktop:p-8 desktop:shadow-contents-container"
+            data-testid="account-signup-form--container"
+          >
+            <span
+              class="tracking-default typo-title3 mb-8 hidden text-w-gray-900 desktop:block"
+              >회원가입</span
+            >
+            <div class="box-border flex flex-col gap-4">
+              <form id="sign_up" class="flex flex-col gap-6">
+                <div class="box-border relative flex flex-col gap-2">
+                  <div
+                    class="flex min-w-fit select-none flex-col gap-2 tracking-default"
+                  >
+                    <label role="input-box" class="cursor-text"
+                      ><div
+                        class="box-border group flex w-full items-center gap-3 overflow-hidden rounded-xl border bg-w-white px-4 py-[11px] border-w-gray-200 hover:border-primary"
+                        data-testid="design-system--text-field-container"
+                      >
+                        <div
+                          class="box-border relative flex h-[42px] w-full flex-col gap-0.5 py-px"
+                          data-testid="design-system--lable-input"
+                        >
+                          <div
+                            class="absolute tracking-default text-w-gray-400 group-hover:text-primary-500 text-[16px] transition-[transform] duration-300 translate-y-2 origin-top-left"
+                            data-testid="design-system--lable-text"
+                          >
+                            이메일
+                          </div>
+                          <input
+                            role="text-input"
+                            class="w-full tracking-default text-w-gray-600 outline-none typo-body1 placeholder:tracking-default placeholder:text-w-gray-300 placeholder:typo-body1 disabled:bg-w-gray-10 pt-[14px]"
+                            data-testid="design-system--input"
+                            variant="lable"
+                            value=""
+                            name="email"
+                          />
+                        </div></div
+                    ></label>
+                  </div>
+                  <span
+                    class="tracking-default typo-body2 box-border flex w-full items-center gap-2 px-4 text-w-gray-400"
+                    >비즈니스용 이메일 사용을 권장합니다.
+                    <div
+                      class="box-border mt-[0.5px] w-4 desktop:mt-0"
+                      data-testid="account-signup-form--info-icon"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          cx="8"
+                          cy="8"
+                          r="6.4"
+                          stroke="#9E9E9E"
+                          stroke-width="1.2"
+                          stroke-linejoin="round"
+                        ></circle>
+                        <path
+                          d="M8 11.0625V7.5625"
+                          stroke="#9E9E9E"
+                          stroke-width="1.2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M7.99779 5.8125C7.51041 5.80988 7.12104 5.4135 7.12454 4.92612C7.12891 4.46062 7.52966 4.0625 7.99604 4.0625C8.47466 4.0625 8.88066 4.47025 8.87454 4.94713C8.86929 5.42225 8.47029 5.81512 7.99779 5.8125Z"
+                          fill="#9E9E9E"
+                        ></path>
+                      </svg></div
+                  ></span>
+                </div>
+                <div
+                  class="flex min-w-fit select-none flex-col gap-2 tracking-default"
+                >
+                  <label role="input-box" class="cursor-text"
+                    ><div
+                      class="box-border group flex w-full items-center gap-3 overflow-hidden rounded-xl border bg-w-white px-4 py-[11px] border-w-gray-200 hover:border-primary"
+                      data-testid="design-system--text-field-container"
+                    >
+                      <div
+                        class="box-border relative flex h-[42px] w-full flex-col gap-0.5 py-px"
+                        data-testid="design-system--lable-input"
+                      >
+                        <div
+                          class="absolute tracking-default text-w-gray-400 group-hover:text-primary-500 text-[16px] transition-[transform] duration-300 translate-y-2 origin-top-left"
+                          data-testid="design-system--lable-text"
+                        >
+                          아이디
+                        </div>
+                        <input
+                          role="text-input"
+                          class="w-full tracking-default text-w-gray-600 outline-none typo-body1 placeholder:tracking-default placeholder:text-w-gray-300 placeholder:typo-body1 disabled:bg-w-gray-10 pt-[14px]"
+                          data-testid="design-system--input"
+                          variant="lable"
+                          maxlength="20"
+                          value=""
+                          name="id"
+                        />
+                      </div></div
+                  ></label>
+                </div>
+                <div
+                  class="flex min-w-fit select-none flex-col gap-2 tracking-default"
+                >
+                  <label role="input-box" class="cursor-text"
+                    ><div
+                      class="box-border group flex w-full items-center gap-3 overflow-hidden rounded-xl border bg-w-white px-4 py-[11px] border-w-gray-200 hover:border-primary"
+                      data-testid="design-system--text-field-container"
+                    >
+                      <div
+                        class="box-border relative flex h-[42px] w-full flex-col gap-0.5 py-px"
+                        data-testid="design-system--lable-input"
+                      >
+                        <div
+                          class="absolute tracking-default text-w-gray-400 group-hover:text-primary-500 text-[16px] transition-[transform] duration-300 translate-y-2 origin-top-left"
+                          data-testid="design-system--lable-text"
+                        >
+                          비밀번호
+                        </div>
+                        <input
+                          role="text-input"
+                          class="w-full tracking-default text-w-gray-600 outline-none typo-body1 placeholder:tracking-default placeholder:text-w-gray-300 placeholder:typo-body1 disabled:bg-w-gray-10 pt-[14px]"
+                          data-testid="design-system--input"
+                          variant="lable"
+                          maxlength="32"
+                          type="password"
+                          value=""
+                          name="password"
+                          aria-autocomplete="list"
+                        />
+                      </div></div
+                  ></label>
+                  <div
+                    class="box-border flex flex-col gap-2 px-[17px]"
+                    data-testid="design-system--support-text-container"
+                  >
+                    <div class="box-border flex gap-6">
+                      <span
+                        class="tracking-default typo-body2 flex-1 text-w-gray-400"
+                        >8자 이상 32자 이하로 입력해 주세요.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex min-w-fit select-none flex-col gap-2 tracking-default"
+                >
+                  <label role="input-box" class="cursor-text"
+                    ><div
+                      class="box-border group flex w-full items-center gap-3 overflow-hidden rounded-xl border bg-w-white px-4 py-[11px] border-w-gray-200 hover:border-primary"
+                      data-testid="design-system--text-field-container"
+                    >
+                      <div
+                        class="box-border relative flex h-[42px] w-full flex-col gap-0.5 py-px"
+                        data-testid="design-system--lable-input"
+                      >
+                        <div
+                          class="absolute tracking-default text-w-gray-400 group-hover:text-primary-500 text-[16px] transition-[transform] duration-300 translate-y-2 origin-top-left"
+                          data-testid="design-system--lable-text"
+                        >
+                          비밀번호 확인
+                        </div>
+                        <input
+                          role="text-input"
+                          class="w-full tracking-default text-w-gray-600 outline-none typo-body1 placeholder:tracking-default placeholder:text-w-gray-300 placeholder:typo-body1 disabled:bg-w-gray-10 pt-[14px]"
+                          data-testid="design-system--input"
+                          variant="lable"
+                          maxlength="32"
+                          type="password"
+                          value=""
+                          name="passwordConfirm"
+                        />
+                      </div></div
+                  ></label>
+                </div>
+                <label
+                  class="flex w-full gap-4"
+                  data-testid="signup-agreement-label"
+                  ><div
+                    class="box-border flex h-[26px] items-center"
+                    data-testid="signup-agreement-checkbox-root"
+                  >
+                    <label
+                      data-testid="design-system-checkbox"
+                      class="group flex size-fit"
+                      ><input
+                        class="absolute h-0 w-0 opacity-0"
+                        data-testid="account-signup-form--policy-checkbox"
+                        type="checkbox"
+                        name="policyAgreement" />
+                      <div
+                        class="relative m-px box-border size-4 cursor-pointer border rounded group-hover:border-primary-500 border-w-gray-200 bg-white"
+                        role="checkbox-button"
+                      >
+                        <div
+                          class="relative h-full w-full cursor-pointer bg-transparent"
+                        >
+                          <div
+                            class="absolute left-[3.2px] top-[5.45px] h-[2px] origin-top-left rotate-45 rounded bg-white transition-[width] duration-100 ease-linear w-0"
+                          ></div>
+                          <div
+                            class="absolute left-[4.5px] top-[8.95px] h-[2px] origin-top-left -rotate-45 rounded bg-white transition-[width] duration-100 ease-linear w-0 delay-0"
+                          ></div>
+                        </div></div
+                    ></label>
+                  </div>
+                  <div
+                    class="box-border flex h-fit flex-col gap-1.5 text-w-gray-900"
+                  >
+                    <span class="tracking-default typo-body1"
+                      ><a
+                        target="_blank"
+                        class="font-medium text-w-primary no-underline"
+                        href="/terms/service"
+                        >이용약관</a
+                      >&nbsp;및&nbsp;<a
+                        target="_blank"
+                        class="font-medium text-w-primary no-underline"
+                        href="/terms/privacy"
+                        >개인정보 처리방침</a
+                      >에 동의합니다.</span
+                    >
+                  </div></label
+                ><button
+                  class="box-border flex cursor-pointer items-center justify-center border rounded-xl h-[50px] px-[15px] text-base leading-[26px] gap-x-1.5 text-w-white bg-primary-500 border-primary-500 hover:border-primary-700 hover:bg-primary-700 mt-2 w-full"
+                  type="submit"
+                >
+                  회원가입
+                </button>
+              </form>
+              <div class="box-border flex flex-col justify-center gap-6">
+                <div class="box-border flex w-full items-center justify-center">
+                  <div
+                    data-testid="design-system-divider"
+                    class="flex-shrink-0 h-px bg-w-gray-200 w-[40%]"
+                  ></div>
+                  <span
+                    class="tracking-default typo-caption1 mx-3 flex w-14 justify-center text-w-gray-500"
+                    >또는</span
+                  >
+                  <div
+                    data-testid="design-system-divider"
+                    class="flex-shrink-0 h-px bg-w-gray-200 w-[40%]"
+                  ></div>
+                </div>
+                <div class="box-border flex flex-col gap-4">
+                  <button
+                    class="box-border flex cursor-pointer items-center justify-center border px-[15px] text-base leading-[26px] gap-x-1.5 bg-w-white border-w-gray-200 hover:border-primary-500 h-[50px] w-full rounded-xl text-w-gray-600"
+                    type="button"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      data-testid="social-form-button-icon--google"
+                      class="text-w-gray-900"
+                    >
+                      <g clip-path="url(#clip0_2735_3764)">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M16 8.18185C16 7.61474 15.9483 7.06897 15.8513 6.54541H8.16327V9.63963H12.5569C12.3674 10.6396 11.7923 11.4876 10.9279 12.0547V14.0619H13.5656C15.1093 12.669 16 10.6183 16 8.18185Z"
+                          fill="#3E82F1"
+                        ></path>
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M8.1632 16C10.3673 16 12.2149 15.2836 13.5655 14.0622L10.9278 12.0542C10.1968 12.5342 9.26162 12.8178 8.1632 12.8178C6.03711 12.8178 4.23755 11.4107 3.59537 9.52002H0.86792V11.5929C2.21124 14.2071 4.97225 16 8.1632 16Z"
+                          fill="#32A753"
+                        ></path>
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M3.59548 9.51999C3.43222 9.03999 3.3397 8.5271 3.3397 7.99999C3.3397 7.47288 3.43222 6.95999 3.59548 6.47999V4.4071H0.868032C0.315648 5.4871 0 6.70933 0 7.99999C0 9.29066 0.315648 10.5129 0.868032 11.5929L3.59548 9.51999Z"
+                          fill="#F9BB00"
+                        ></path>
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M8.1632 3.18186C9.36139 3.18186 10.438 3.58541 11.2834 4.3783L13.6254 2.08408C12.2113 0.792523 10.3637 -0.000366211 8.1632 -0.000366211C4.97225 -0.000366211 2.21124 1.79252 0.86792 4.40763L3.59537 6.47963C4.23755 4.58897 6.03711 3.18186 8.1632 3.18186Z"
+                          fill="#E74235"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_2735_3764">
+                          <rect width="16" height="16" fill="white"></rect>
+                        </clipPath>
+                      </defs></svg
+                    ><span class="tracking-default typo-body1 w-full"
+                      >구글로 회원가입</span
+                    ></button
+                  ><button
+                    class="box-border flex cursor-pointer items-center justify-center border px-[15px] text-base leading-[26px] gap-x-1.5 bg-w-white border-w-gray-200 hover:border-primary-500 h-[50px] w-full rounded-xl text-w-gray-600"
+                    type="button"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      data-testid="social-form-button-icon--facebook"
+                      class="text-w-gray-900"
+                    >
+                      <g clip-path="url(#clip0_2735_3784)">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M16 8.04891C16 3.60361 12.4183 0 8 0C3.58172 0 0 3.60361 0 8.04891C0 12.0663 2.92548 15.3962 6.75 16V10.3755H4.71875V8.04891H6.75V6.27563C6.75 4.25837 7.94436 3.1441 9.7717 3.1441C10.647 3.1441 11.5625 3.30131 11.5625 3.30131V5.28209H10.5537C9.55992 5.28209 9.25 5.90254 9.25 6.53906V8.04891H11.4688L11.1141 10.3755H9.25V16C13.0745 15.3962 16 12.0663 16 8.04891Z"
+                          fill="#1877F2"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_2735_3784">
+                          <rect width="16" height="16" fill="white"></rect>
+                        </clipPath>
+                      </defs></svg
+                    ><span class="tracking-default typo-body1 w-full"
+                      >페이스북으로 회원가입</span
+                    >
+                  </button>
+                </div>
+                <span
+                  class="tracking-default typo-body1 text-center font-normal text-w-gray-600"
+                  >이미 위시켓 통합회원이신가요? &nbsp;<a
+                    class="font-medium text-w-primary no-underline"
+                    href="/login?next=%2Fproject%2Fcreate%2F"
+                    >로그인
+                  </a></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

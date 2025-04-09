@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>position 실습</title>
+        <style>
+            #cloth {
+                position: relative;
+            }
+            #image {
+                margin: 0 auto;
+                width: 220px;
+                height: 315px;
+                background-image: url("http://gangnam.koreaisacademy.com/2023/img/tch/teacher007.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            #hat {
+                position: absolute;
+                background-image: url(https://d3kxs6kpbh59hp.cloudfront.net/community/COMMUNITY/1fd86ae5ff7a4415a7bf8446606aa71c/0bfd9d34a77846d284e67cd1329c50bd_1649160032.png);
+                width: 164px;
+                height: 117px;
+                background-size: 100% 100%;
+                right: 549px;
+                bottom: 0;
+                background-color: transparent;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="cloth">
+            <div id="hat"></div>
+            <div id="image"></div>
+            <div id="pet"></div>
+        </div>
+    </body>
+</html>

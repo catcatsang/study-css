@@ -1,0 +1,34 @@
+<!-- 문제 1: 예상치 못한 스타일 상속
+div 요소에 배경색과 텍스트 색을 지정하고, p 요소는 color만 상속받도록 설정합니다. 이를 통해 p 요소에 텍스트 색이 상속되도록 하세요.
+
+조건:
+
+div의 배경색을 lightblue로 설정
+div의 텍스트 색을 darkblue로 설정
+p 요소는 color 속성을 inherit로 설정하여 부모 div의 텍스트 색을 상속받도록 하세요.
+목표:
+
+div는 배경색과 텍스트 색이 설정되어야 하고, p 요소는 div의 텍스트 색을 상속받아야 합니다. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSW_inherit_task02</title>
+    <style>
+        #normal {
+            background-color: red;
+            color: brown;
+        }
+        p { color: inherit;
+        }
+    </style>
+    <!-- 선언명 잘 확인 . 인지 # 인지 -->
+</head>
+<body>
+    <div id="normal">
+        <p>12</p>
+        <p>34</p>
+    </div>
+</body>
+</html>

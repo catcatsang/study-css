@@ -1,0 +1,28 @@
+<!-- 문제 설명: 박스 내의 콘텐츠가 영역을 넘칠 경우, overflow 속성을 사용하여 넘친 부분을 숨기는 문제입니다. 이 문제에서는 hidden 값을 사용하여 넘치는 콘텐츠가 보이지 않도록 처리합니다. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSW_overflow_task02</title>
+    <style>
+        #text-wrap {
+            width: 50px;
+            height: 50px;
+            border: solid red;
+            white-space: normal;
+            /* 넘치는 텍스트 자르기 */
+            overflow: hidden;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="text-wrap">
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis ac nisi scelerisque, in ultricies felis scelerisque. Donec non risus libero.</p>
+    </div>
+    <!-- <div class="hidden-box">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis ac nisi scelerisque, in ultricies felis scelerisque. Donec non risus libero.</p>
+</div> -->
+</body>
+</html>
